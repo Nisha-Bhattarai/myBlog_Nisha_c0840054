@@ -68,6 +68,9 @@ hr{
 .contents h3, p{
     margin-bottom: 10px;
 }
+.contents p {
+    margin-bottom: 2%;
+}
 .contents img{
     align-items: center;
 }
@@ -78,8 +81,11 @@ img{
     filter: grayscale(1);
     margin-bottom: 10px;
 }
-.contents .button{
+
+.read-more-btn{
+    margin-bottom: 10px;
     float: right;
+    clear: right;
 }
 .button{
     border: 1px solid black;
@@ -96,6 +102,9 @@ img{
     border: 1px solid black;
     background: white;
     color: black;
+}
+.table{
+    margin-top: 15%;
 }
 th, tr, td{
     margin-bottom: 10px;
@@ -146,4 +155,5 @@ footer{
     color: white;
     text-align: center;
     margin-top: 2%;
+    margin-bottom: 0;
 }
