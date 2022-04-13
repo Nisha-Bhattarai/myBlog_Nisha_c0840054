@@ -1,0 +1,63 @@
+
+.left-container{
+    width: 200px;
+}
+.right-container {
+    width: 100%;
+}
+.contact-heading h3{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-container{
+    display: block;
+}
+
+/* Contact Form */
+.inline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.inline input{
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 48%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+button{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+}
+textarea{
+    width: 97.5%;
+    height: 150px;
+    margin: 5px 10px 5px 0;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+form{
+    padding: 20px 200px;
+    text-align: center;
+}
