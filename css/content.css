@@ -61,3 +61,32 @@ form{
     padding: 20px 200px;
     text-align: center;
 }
+/* Blog Page */
+.blog-contents h3
+{
+    font-size: 30px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.blog-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column img{
+      height: 200px;
+  }
+  .blog-container p{
+      text-align: justify;
+  }
+  .blog-container h4{
+      font-size: 20px;
+      font-weight: 600;
+  }
+  figcaption{
+      text-decoration: underline;
+      font-style: italic;
+  }

@@ -104,16 +104,16 @@ p {
     align-items: center;
 }
 
-img {
-    text-align: center;
-    filter: grayscale(1);
-    margin-bottom: 10px;
-}
 
 .image-overlay {
     position: relative;
     width: 100%;
     height: 600px;
+}
+.image-overlay img{
+    text-align: center;
+    filter: grayscale(1);
+    margin-bottom: 10px;
 }
 .image{
     opacity: 1;
