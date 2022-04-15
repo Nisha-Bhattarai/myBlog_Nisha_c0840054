@@ -66,7 +66,7 @@ form{
 {
     font-size: 30px;
 }
-.column {
+.blog-column {
     float: left;
     width: 50%;
     padding: 10px;
@@ -76,7 +76,7 @@ form{
     display: table;
     clear: both;
   }
-  .column img{
+  .blog-column img{
       height: 200px;
   }
   .blog-container p{
@@ -89,4 +89,68 @@ form{
   figcaption{
       text-decoration: underline;
       font-style: italic;
+  }
+
+  /* About Page */
+  .column img{
+      height: 100px;
+  }
+  .image-carousel{
+      position: relative;
+  }
+  .mySlides {
+    display: none;
+  }
+  .cursor {
+    cursor: pointer;
+  }
+  .previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 12.5%;
+  }
+  .img {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .img:hover {
+    opacity: 1;
+  }
+  .mySlides img{
+      height: 250px;
   }
